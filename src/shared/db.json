@@ -1,0 +1,323 @@
+{
+  "users": [
+    {
+      "firstname": "Parsi",
+      "lastname": "Srijay",
+      "username": "srijay",
+      "password": "srijay1999",
+      "id": 1
+    },
+    {
+      "firstname": "sriz",
+      "lastname": "p",
+      "username": "sriz",
+      "password": "sriz123",
+      "id": 2
+    },
+    {
+      "firstname": "Parsi",
+      "lastname": "Srijay",
+      "username": "srijay",
+      "password": "sri",
+      "id": 3
+    },
+    {
+      "firstname": "ram",
+      "lastname": "k",
+      "username": "ramk",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "SCENARIO_QUESTIONS": [
+    {
+      "id": 1,
+      "question": "How are you?",
+      "options": [
+        {
+          "id": 1,
+          "options": "a"
+        },
+        {
+          "id": 2,
+          "options": "b"
+        },
+        {
+          "id": 3,
+          "options": "c"
+        },
+        {
+          "id": 4,
+          "options": "d"
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": 1,
+          "options": "b"
+        },
+        {
+          "id": 2,
+          "options": "a"
+        },
+        {
+          "id": 3,
+          "options": "d"
+        },
+        {
+          "id": 4,
+          "options": "c"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How are you?",
+      "options": [
+        {
+          "id": 1,
+          "options": "a"
+        },
+        {
+          "id": 2,
+          "options": "b"
+        },
+        {
+          "id": 3,
+          "options": "c"
+        },
+        {
+          "id": 4,
+          "options": "d"
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": 1,
+          "options": "b"
+        },
+        {
+          "id": 2,
+          "options": "a"
+        },
+        {
+          "id": 3,
+          "options": "d"
+        },
+        {
+          "id": 4,
+          "options": "c"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How are you?",
+      "options": [
+        {
+          "id": 1,
+          "options": "a"
+        },
+        {
+          "id": 2,
+          "options": "b"
+        },
+        {
+          "id": 3,
+          "options": "c"
+        },
+        {
+          "id": 4,
+          "options": "d"
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": 1,
+          "options": "b"
+        },
+        {
+          "id": 2,
+          "options": "a"
+        },
+        {
+          "id": 3,
+          "options": "d"
+        },
+        {
+          "id": 4,
+          "options": "c"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How are you?",
+      "options": [
+        {
+          "id": 1,
+          "options": "a"
+        },
+        {
+          "id": 2,
+          "options": "b"
+        },
+        {
+          "id": 3,
+          "options": "c"
+        },
+        {
+          "id": 4,
+          "options": "d"
+        }
+      ],
+      "correctAnswer": [
+        {
+          "id": 1,
+          "options": "b"
+        },
+        {
+          "id": 2,
+          "options": "a"
+        },
+        {
+          "id": 3,
+          "options": "d"
+        },
+        {
+          "id": 4,
+          "options": "c"
+        }
+      ]
+    }
+  ],
+  "MATCH_INFO": [
+    {
+      "info": "a",
+      "val": "b",
+      "id": 1
+    },
+    {
+      "info": "This is",
+      "val": "good",
+      "id": 2
+    }
+  ],
+  "MCQ_QUESTIONS": [
+  {
+      "question": "What should be included in acheiving happiness in life?",
+      "options": [
+          {
+            "id": "1",
+            "content": "Being helpful and trusting of others"
+          },
+          {
+            "id": "2",
+            "content": "Have a sense of self-esteem"
+          },
+          {
+            "id": "3",
+            "content": "Appreciating day-to-day living joys"
+          },
+          {
+            "id": "4",
+            "content": "All of these"
+          }
+      ],
+      "answer":"All of these"
+  },
+  {
+    "question": "What is not an spheres of life and happiness?",
+    "options": [
+          {
+            "id": "1",
+            "content": "Financial health"
+          },
+          {
+            "id": "2",
+            "content": "Spiritual life or belief system"
+          },
+          {
+            "id": "3",
+            "content": "work and career"
+          },
+          {
+            "id": "4",
+            "content": "Emotional superficial states"
+          }
+      ],
+      "answer":"Emotional superficial states"
+  },
+  {
+    "question": "Which of the following characterizes mood?",
+    "options": [
+        {
+            "id": "1",
+            "content": "Cannot tie to an event"
+        },
+        {
+            "id": "2",
+            "content": "Cannot tie to a physiological sensation"
+        },
+        {
+            "id": "3",
+            "content": "It is a vague general experience"
+        },
+        {
+          "id": "4",
+          "content": "All of these"
+      }
+         
+      ],
+      "answer":"All of these"
+  },
+  {
+    "question": "Which of the following is appropriate way fo making contact?",
+    "options": [
+        {
+            "id": "1",
+            "content": "Good eye-contact"
+        },
+        {
+            "id": "2",
+            "content": "Appropriate distance and tone"
+        },
+        {
+            "id": "3",
+            "content": "Open body position"
+        },
+        {
+          "id": "4",
+          "content": "All of these"
+      }
+         
+      ],
+      "answer":"All of these"
+  },{
+    "question": "Which part of the brain is very primitive and response to your raw emotion?",
+    "options": [
+        {
+            "id": "1",
+            "content": "Thalamus"
+        },
+        {
+            "id": "2",
+            "content": "Amygdala"
+        },
+        {
+            "id": "3",
+            "content": "Cerebrum"
+        },
+        {
+          "id": "4",
+          "content": "None of these"
+      }
+         
+      ],
+      "answer":"Amygdala"
+  }
+  
+]
+
+
+}

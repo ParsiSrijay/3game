@@ -1,0 +1,127 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+.dropbox {
+  border : 1px solid black;
+  width : 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.final{
+  background-image: url(./assets/images/bgsai.png) no repeat;
+}
+
+.disp{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.game3{
+  margin: 0;
+  padding: 0;
+  background:  #fdfdffe0 url(./assets/images/bgsai.png) no-repeat;
+  background-size: 100% 150%;
+  font-family: sans-serif;
+}

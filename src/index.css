@@ -1,0 +1,10 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background:  #fdfdffe0 url(./assets/images/bgsai.png) no-repeat;
+  background-size: 100% 150%;
+  font-family: sans-serif;
+}

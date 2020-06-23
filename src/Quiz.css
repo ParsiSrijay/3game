@@ -1,0 +1,18 @@
+.cards{
+    margin-top:50px;
+    margin-left:20px;
+    float:left;
+    margin-bottom:10px;
+    
+    background-color:#cee9f1;
+    height:25em;
+    width:60em;
+   
+    
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+
+}
