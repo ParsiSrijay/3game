@@ -7,14 +7,19 @@ function CheckAnswer({correctAnswer,selectedOptions,display}){
   var c=0;
   if(display){
     for(var i=0;i<correctAnswer.length;i++){
-      if(correctAnswer[i].id === selectedOptions[i].id){
+      if(correctAnswer[i].val === selectedOptions[i].val){
         c=c+1
       }
     }
     return(
-      <Alert key={1} variant='success'>
-        <span>Your points :&nbsp;</span>{c}
-      </Alert> 
+      // <Alert key={1} variant='success'>
+      //   <span>Your points :&nbsp;</span>{c}
+      // </Alert> 
+      <div className="mb-2">
+        <div>
+            <span className="fa  fa-star fa-lg"></span> Your Score is {c}
+        </div>
+      </div>
     );
   }
   else{
@@ -39,7 +44,7 @@ class RenderGame extends Component {
         super(props);
         this.state = {
             items: this.props.matches,
-            info: this.props.info,
+            info: this.props.matches,
             dragDisabled:false,
             showScore:false
     };
@@ -79,8 +84,21 @@ class RenderGame extends Component {
     });
   }
 
-  render() {
+  componentDidMount() {
+    var columns = this.state.info;
+    for(var i = columns.length - 1 ; i > 0; i--){
+            const j = Math.floor(Math.random() * i);
+            const temp = columns[i];
+            columns[i] = columns[j];
+            columns[j] = temp;
+    }
+    this.setState({
+      info : columns
+    })
+  }
 
+  render() {
+  
     const inf = this.state.info.map((info) => {
         return (
             <div key={info.id}>
@@ -93,7 +111,10 @@ class RenderGame extends Component {
       <>
         <div className="container">
             <div className="row">
-                <div className="col-12 mb-3">
+                <div className="col-12 mt-4">
+                    
+                </div>
+                <div className="col-12 mt-4 mb-4">
                     <b><i>Start Matching now</i></b>
                 </div>
             </div>
@@ -136,12 +157,12 @@ class RenderGame extends Component {
         {' '}
         <div className="container">
             <div className="row">
-                <div className="mt-2 col-sm-4 offset-md-1 col-md-2">
+                <div className="mt-2 offset-2" style={{display: this.state.dragDisabled ? 'none' : 'inline-block' }}>
                     <Button onClick={this.handleDrag} className="bg-info dropbox pt-1">
-                        <span>Submit</span>
+                        <span>Score</span>
                     </Button>
                 </div>
-                <div className="mt-2 col-sm-4 col-md-2">
+                <div className="mt-2 offset-2" style={{display: this.state.dragDisabled ? 'inline-block' : 'none' }}>
                     <Button onClick={this.handleScore} className="bg-warning dropbox pt-1">
                         <span>Play Again</span>
                     </Button>

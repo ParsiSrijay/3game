@@ -201,6 +201,21 @@
       "info": "This is",
       "val": "good",
       "id": 2
+    },
+    {
+      "info": "work",
+      "val": "hard",
+      "id": 3
+    },
+    {
+      "info": "Help",
+      "val": "others",
+      "id": 4
+    },
+    {
+      "info": "Always",
+      "val": "smile",
+      "id": 5
     }
   ],
   "MCQ_QUESTIONS": [
